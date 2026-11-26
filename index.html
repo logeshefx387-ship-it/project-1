@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f8fc">
+  <meta name="description" content="The personal portfolio of Alex Morgan, a designer and front-end developer.">
+  <title>Alex Morgan — Designer &amp; Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Alex Morgan, home">alex<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+          <h1 id="hero-title">Designing digital<br>experiences that<br><span class="accent-text">feel human.</span></h1>
+          <p class="hero-intro">I’m Alex Morgan — a designer and front-end developer turning thoughtful ideas into useful, beautiful things for the web.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#contact">Let’s talk <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta">
+            <span>BASED IN BROOKLYN, NY</span>
+            <span class="meta-divider"></span>
+            <span>WORKING WORLDWIDE</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Abstract portrait illustration">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="portrait-card">
+            <div class="portrait-sun"></div>
+            <div class="portrait-halo"></div>
+            <div class="portrait-body"></div>
+            <div class="portrait-neck"></div>
+            <div class="portrait-head">
+              <div class="portrait-hair"></div>
+              <div class="portrait-ear"></div>
+              <div class="portrait-face"></div>
+              <div class="portrait-fringe"></div>
+              <div class="portrait-eye"></div>
+              <div class="portrait-smile"></div>
+            </div>
+            <div class="portrait-caption"><span>AM</span><span>CREATIVE BY NATURE</span></div>
+          </div>
+          <div class="floating-note note-top"><span class="note-spark">✳</span> GOOD DESIGN<br>IS GOOD FEELING</div>
+          <div class="floating-note note-bottom"><span>✦</span> DESIGN <i>+</i> CODE</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-kicker"><span>01</span> A LITTLE ABOUT ME</div>
+        <div class="about-content">
+          <h2 class="section-title" id="about-title">Curiosity is my<br>favorite <span class="serif-accent">tool.</span></h2>
+          <div class="about-columns">
+            <p>I’m a multidisciplinary creative with 6+ years of experience shaping digital products. I like getting to the heart of a problem, asking better questions, and making the complicated feel simple.</p>
+            <p>From the first sketch to the final line of code, I bring a curious mind and a thoughtful eye to every project. When I’m away from my desk, you’ll find me collecting vinyl or exploring a new corner of the city.</p>
+          </div>
+          <div class="stats">
+            <div><strong>06<span>+</span></strong><span>YEARS CREATING</span></div>
+            <div><strong>32</strong><span>PROJECTS SHIPPED</span></div>
+            <div><strong>14</strong><span>HAPPY PARTNERS</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker"><span>02</span> WHAT I BRING</div>
+            <h2 class="section-title" id="skills-title">A thoughtful mix<br>of <span class="serif-accent">craft &amp; code.</span></h2>
+          </div>
+          <p class="section-aside">The best work happens where good ideas meet good execution. Here are a few of the tools I bring to the table.</p>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-label"><span>UI / UX DESIGN</span><span>92%</span></div>
+              <div class="skill-track" role="progressbar" aria-label="UI and UX design" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"><span style="--level: 92%"></span></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label"><span>FRONT-END DEVELOPMENT</span><span>86%</span></div>
+              <div class="skill-track" role="progressbar" aria-label="Front-end development" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"><span style="--level: 86%"></span></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label"><span>BRAND &amp; VISUAL DESIGN</span><span>80%</span></div>
+              <div class="skill-track" role="progressbar" aria-label="Brand and visual design" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span style="--level: 80%"></span></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label"><span>PROTOTYPING &amp; MOTION</span><span>74%</span></div>
+              <div class="skill-track" role="progressbar" aria-label="Prototyping and motion" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"><span style="--level: 74%"></span></div>
+            </div>
+          </div>
+          <div class="toolbox-card">
+            <span class="toolbox-icon" aria-hidden="true">✳</span>
+            <p class="toolbox-label">MY EVERYDAY TOOLKIT</p>
+            <div class="tool-tags">
+              <span>Figma</span><span>HTML &amp; CSS</span><span>JavaScript</span>
+              <span>React</span><span>Webflow</span><span>Adobe CC</span>
+            </div>
+            <p class="toolbox-foot">Always learning something new.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading projects-heading">
+          <div>
+            <div class="section-kicker"><span>03</span> A FEW FAVORITES</div>
+            <h2 class="section-title" id="projects-title">Selected <span class="serif-accent">work.</span></h2>
+          </div>
+          <a class="text-link" href="#contact">Have a project in mind? <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <a class="project-art project-art-one" href="#contact" aria-label="Discuss a project like Forma">
+              <div class="forma-window">
+                <span class="mini-brand">forma<span>.</span></span>
+                <span class="mini-menu">MENU &nbsp; ☰</span>
+                <div class="forma-copy"><small>MOVE WITH INTENTION</small><strong>Find your<br>own rhythm.</strong><span>Mindful movement, made for you.</span></div>
+                <div class="forma-shape shape-a"></div><div class="forma-shape shape-b"></div>
+                <span class="forma-cta">EXPLORE CLASSES &nbsp; ↗</span>
+              </div>
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info"><div><h3>Forma Wellness</h3><p>Brand identity · Web design · Development</p></div><span class="project-year">2025</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-art project-art-two" href="#contact" aria-label="Discuss a project like Goodside">
+              <div class="goodside-poster"><span>GOOD<br>SIDE</span><div class="goodside-sun"></div><div class="goodside-hill"></div><small>A LITTLE MORE<br>GOOD IN YOUR DAY.</small></div>
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info"><div><h3>Goodside Market</h3><p>Art direction · Packaging · E-commerce</p></div><span class="project-year">2024</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-art project-art-three" href="#contact" aria-label="Discuss a project like Common Ground">
+              <div class="common-card"><div class="common-top"><span>COMMON<br>GROUND</span><span>ISSUE NO. 04<br>PLANTS &amp; PEOPLE</span></div><div class="plant-stem"></div><div class="plant-leaf leaf-left"></div><div class="plant-leaf leaf-right"></div><div class="common-bottom">GROWING TOGETHER, EVERY DAY.</div></div>
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info"><div><h3>Common Ground</h3><p>Digital experience · Creative direction</p></div><span class="project-year">2024</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <div class="section-kicker"><span>04</span> YOUR TURN</div>
+          <h2 class="section-title" id="contact-title">Let’s make<br>something <span class="serif-accent">matter.</span></h2>
+          <p>Have a good one in mind? I’d love to hear what you’re thinking. Tell me a little about it and I’ll be in touch.</p>
+          <a class="contact-email" href="mailto:hello@alexmorgan.design">hello@alexmorgan.design <span aria-hidden="true">↗</span></a>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">YOUR NAME</label>
+            <input id="name" name="name" type="text" placeholder="How should I call you?" autocomplete="name" required>
+            <span class="field-error" id="name-error"></span>
+          </div>
+          <div class="form-row">
+            <label for="email">EMAIL ADDRESS</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            <span class="field-error" id="email-error"></span>
+          </div>
+          <div class="form-row">
+            <label for="message">A LITTLE ABOUT YOUR PROJECT</label>
+            <textarea id="message" name="message" rows="3" placeholder="The big idea, the small details..." required></textarea>
+            <span class="field-error" id="message-error"></span>
+          </div>
+          <button class="button button-primary submit-button" type="submit">Send your message <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home" aria-label="Alex Morgan, back to top">alex<span>.</span></a>
+      <p>MADE WITH CARE <span aria-hidden="true">✳</span> © <span id="current-year">2025</span> ALEX MORGAN</p>
+      <a class="back-to-top" href="#home">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
